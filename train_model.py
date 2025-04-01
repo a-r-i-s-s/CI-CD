@@ -3,7 +3,7 @@ from sklearn.linear_model import LinearRegression
 import joblib
 
 # Load training data
-data = pd.read_csv('training_data.csv')
+data = pd.read_csv('Salary_Data.csv')
 X = data.iloc[:, :-1]
 y = data.iloc[:, -1]
 
